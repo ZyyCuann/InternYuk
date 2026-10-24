@@ -1,0 +1,1 @@
+{"name":"internyuk-prototype","version":"0.1.0","private":true,"type":"module","scripts":{"start":"node server.cjs","test":"node tests/model.test.mjs"},"engines":{"node":">=18"}}

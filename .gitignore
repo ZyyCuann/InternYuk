@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.openai/
+references/
+preview/
+*.log
+.DS_Store
