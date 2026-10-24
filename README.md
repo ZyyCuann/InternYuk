@@ -24,7 +24,7 @@ Tes mencakup rekomendasi berbasis aturan, XP unik, pengulangan kuis/kasus, progr
 
 ## Deployment
 
-Workflow .github/workflows/pages.yml menguji model lalu menerbitkan hanya folder dist. Di Settings → Pages, Source harus GitHub Actions. Setiap push ke main memicu deployment berikutnya. Tidak diperlukan server Node.js pada GitHub Pages karena aplikasi berjalan statis di browser.
+Workflow .github/workflows/pages.yml menguji model lalu menerbitkan hanya folder dist. GitHub Actions menerbitkan aplikasi langsung dari dist. Publikasi dari branch main, folder /(root), juga didukung: index.html pada folder utama menggunakan basis aset ./dist/. Setiap push ke main memicu deployment berikutnya. Tidak diperlukan server Node.js pada GitHub Pages karena aplikasi berjalan statis di browser.
 
 ## Batas prototipe
 
